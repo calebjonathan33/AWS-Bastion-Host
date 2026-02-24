@@ -1,0 +1,20 @@
+# Example resource IDs (actual values in logs/resources-id.txt - gitignored)
+# These are AWS resource identifiers for this project
+
+# VPC and Network
+export VPC_ID="vpc-0xxxxxxxxxxxxx"
+export PUB_SUB_ID="subnet-0xxxxxxxxxxxxx"
+export PRI_SUB_ID="subnet-0xxxxxxxxxxxxx"
+export IGW_ID="igw-0xxxxxxxxxxxxx"
+export RT_ID="rtb-0xxxxxxxxxxxxx"
+
+# Security
+export BAS_SG_ID="sg-0xxxxxxxxxxxxx"
+export PRI_SG_ID="sg-0xxxxxxxxxxxxx"
+export NACL_ID="acl-0xxxxxxxxxxxxx"
+
+# Instances
+export BAS_INSTANCE_ID="i-0xxxxxxxxxxxxx"
+export PRI_INSTANCE_ID="i-0xxxxxxxxxxxxx"
+
+# Note: Actual IDs are stored in logs/resources-id.txt (excluded from Git)
